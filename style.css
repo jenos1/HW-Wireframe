@@ -9,85 +9,74 @@ body {
 }
 
 header, nav, footer {
-	/*display: block;
-	border: 0px solid #777;*/
 	height: 45px;
+	width:830px;
 	background-color: #ebebeb;
 	text-align: center;
 	padding: 10px;
 	margin: 10px;
+	margin-left: 100px;
 }
 
-nav {
-	
-}
-
-.columnA {
-	float: left;
-	width: 495px;
-	padding: 5px;
-	margin: 5px;
-}
-
-.columnB {
-	float: right;
-	width: 420px;
-	padding: 5px;
-	margin: 5px;
-}
-
-#h123 {
-	background-color: #ebebeb;
-	color: #777;
-	width: 380px;
-	height: 30px;
-	margin-top: 20px; 
-	margin-left: 20px;
-	padding-top: 5px;
-	padding-bottom: 20px;
-}
-
-#p {
-	background-color: #ebebeb;
-	color: #777;
-	width: 380px;
-	height: 30px;
-	margin-top: 20px; 
-	margin-left: 20px;
-	padding-top: 5px;
-	padding-bottom: 20px;
-}
-
-aside {
-	width: 450px;
+section, aside {
 	height: 280px;
+	background-color: #ebebeb;
+	padding: 0px;
+	margin: 5px auto 15px auto;
 }
 
 section {
-/*	height: 140px;*/
+	width: 495px;
+	margin-left: 100px;
+	float: left;
 }
 
+aside {
+	width: 340px;
+	margin-right: 10px;
+	float: right;
+}
 
-article p  {
-	/*height: 140px;
-	padding: 10px;
-	margin: 30px;
+article {
+	width:450px;
+	height: 60%;
 	background-color: #777;
-	color: white;*/
+	padding: 10px 5px 5px 5px;
+	margin: 10px 5px 30px 20px;
+	color: white;
+	overflow: auto;
 }
 
-
-p {
+h5 {
+	width: 420px;
+	height: 20%;
 	background-color: #ebebeb;
+	color:gray;
+	padding-right: 10px;
+	padding-top: 10px;
+	margin: 10px 10px;
+	text-align: center;
+}
+
+article p:last-child {
+	width: 420px;
+	height: 20%;
+	background-color: #ebebeb;
+	color:gray;
+	padding-right: 10px;
+	padding-top: 10px;
+	margin: 10px 10px;
+	text-align: center;
 }
 
 /*.container {
-	width: 1024px;
+	margin: 10px 40px 30px;
 }*/
-
 
 footer {
 	clear: both;
+	text-align: center;
+	/*overflow: auto;*/
 }
 
 
