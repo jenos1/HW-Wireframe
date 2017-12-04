@@ -34,7 +34,6 @@ section {
 	padding-top: 10px;
 	padding-bottom: 30px;
 	margin: 10px 5px 20px 10px;
-	/*margin-right: 20px;*/
 	float: left;
 }
 
@@ -58,6 +57,7 @@ aside {
 
 section, aside {
 	background-color: #ebebeb;
+	color: #777;
 	height: 300px;
 	}
 
