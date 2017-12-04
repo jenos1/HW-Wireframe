@@ -15,14 +15,14 @@ http://unh.bootcampcontent.com/unh-coding-bootcamp/UNHPOR2017FSF5-Class-Reposito
 2. From your profile area in github.com click "New repository" then name your project.
 3. Click "Clone or download" (use SSH if you have it set up) then click the "Copy to clipboard" icon.
 4. From your Terminal (mac) take the copied URL and enter it here: git clone <https://github.com/jenos1/HW-Wireframe.git>
-5. cd to this project & create two files: html & css (MAC): using touch <filename1> <filename2)>
+5. cd to this project & create two files: html & css (MAC): using touch filename1 filename2 
 
 
 ## Commit completed files to GitHub
 
 1. Go to Terminal (in Mac)
 2. CD to github where project was cloned
-3. Add your new file/s using: git add <filename> <filename> OR for all files use: git add .
+3. Add your new file/s using: git add filename1 filename2 OR for all files use: git add .
 3. Commit your changes: git commit -m 'Add some feature'
 4. Push to the branch: `git push origin master` 
 
